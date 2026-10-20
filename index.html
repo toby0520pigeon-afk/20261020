@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>動態圖文配對測驗系統</title>
+    <!-- 引入 p5.js 主程式庫 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f4f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+      }
+      #canvas-container {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas-container"></div>
+    <!-- 引入主要邏輯檔案 -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
